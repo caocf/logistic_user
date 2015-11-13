@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pop_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp145"
+        android:background="@drawable/border_line"
+        android:orientation="horizontal"
+        tools:ignore="DisableBaselineAlignment" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <com.cn.xtouch.fodelforuser.widget.WheelView
+                android:id="@+id/wheel_view_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <com.cn.xtouch.fodelforuser.widget.WheelView
+                android:id="@+id/wheel_view_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ok_btn"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/dp50"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn"
+            android:gravity="center"
+            android:text="@string/ok" />
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/dp50"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn"
+            android:gravity="center"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

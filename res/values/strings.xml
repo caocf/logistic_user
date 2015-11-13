@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fodel For User</string>
+    <string name="google_app_key">AIzaSyDtb3B-VeDrj8tIBv43SfqDOXMdJu34KHI</string>
+    <string name="no_network">No network connection</string>
+    <string name="drawer_open">Menu Opened</string>
+    <string name="drawer_close">Menu Closed</string>
+    <string name="about_me">About Me</string>
+    <string name="help">Help</string>
+    <string name="history">history</string>
+    <string name="exit_account">Exit from the current account</string>
+    <string name="exit_app">Exit app</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_portrait_dialog_select_photo">Choose from Photos</string>
+    <string name="change_portrait_dialog_take_photo">Take Photo</string>
+    <string name="no_data">No Data</string>
+    <string name="loading">Loading</string>
+    <string name="no_notification">You have no notification</string>
+    <string name="exit_tip">Login account on another device, you have to exit</string>
+    <string name="send_failure">Failed to send, Please try again</string>
+    <string name="no_more_data">No more data</string>
+    <string name="no_new_data">No new data for the time being</string>
+    <string name="head_img">head imageview</string>
+    <string name="log_out">Log out</string>
+    <string name="log_in">Log in</string>
+    <string name="head_portrait">Head Portrait</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="recipient_hint">Please enter recipient</string>
+    <string name="phone_hint">Please enter phone number</string>
+    <string name="address_hint">Please enter address</string>
+    <string name="first_name_hint">Please enter firstName</string>
+    <string name="last_name_hint">Please enter Name</string>
+    <string name="email_hint">Please enter email</string>
+    <string name="send">Send</string> 
+    <string name="pass_word">PassWord</string>
+    <string name="user_name">UserName</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="degree_of_satisfaction">Degree of satisfaction :</string>
+    <string name="comment_words">Comment words</string>
+    <string name="version">version</string>
+    <string name="sign_up">Sign up</string>
+    <string name="ok">OK</string>
+    <string name="comment">comment</string>
+    <string name="selector_image">selector image</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="submit">Submit</string>
+    <string name="comment_hint">Write down your comment</string>
+    <string name="identify_code_hint">Please enter identify code</string>
+    <string name="verify_btn_txt">Verify</string>
+    <string name="home_one_btn_txt">Track Parcel</string>
+    <string name="home_two_btn_txt">Delivery Time</string>
+    <string name="home_three_btn_txt">Delivery Address</string>
+    <string name="home_four_btn_txt">Contact Carrier</string>
+    
+</resources>

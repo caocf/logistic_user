@@ -1,0 +1,101 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+# 保持哪些类不被混淆 (因为proguard会移除没有被调用的代码)
+-keep public class * extends android.app.Fragment
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
+#如果有引用v4包可以添加下面这行
+-keep public class * extends android.support.v4.app.Fragment
+
+#保护注解
+-keepattributes *Annotation*
+-keep class * extends java.lang.annotation.Annotation { *; }
+#友盟
+-keep class com.umeng.** { *; }
+-keepclassmembers class * {
+   public <init>(org.json.JSONObject);
+}
+-keep public class com.cn.xtouch.logisticforadmin.R$*{
+public static final int *;
+}
+#v4
+-dontwarn android.support.**
+#图片加载器
+-keep class com.nostra13.universalimageloader.** { *; }
+#xutils
+-libraryjars libs/xUtils-2.6.14.jar  
+-keep class com.lidroid.xutils.** { *; }   
+-keep public class * extends com.lidroid.xutils.**    
+-keepattributes Signature  
+-keepattributes *Annotation*  
+-keep public interface com.lidroid.xutils.** {*;}  
+-dontwarn com.lidroid.xutils.**  
+-keepclasseswithmembers class com.jph.android.entity.** {  
+    <fields>;  
+    <methods>;  
+}  
+#google
+-dontwarn com.google.**
+-keep class com.google.** { *;}
+################gson##################  
+-libraryjars libs/gson-2.3.jar  
+-keep class com.google.gson.** {*;}  
+-keep class com.google.**{*;}  
+-keep class sun.misc.Unsafe { *; }  
+-keep class com.google.gson.stream.** { *; }  
+-keep class com.google.gson.examples.android.model.** { *; }   
+-keep class com.google.** {  
+    <fields>;  
+    <methods>;  
+}  
+-keepclassmembers class * implements java.io.Serializable {  
+    static final long serialVersionUID;  
+    private static final java.io.ObjectStreamField[] serialPersistentFields;  
+    private void writeObject(java.io.ObjectOutputStream);  
+    private void readObject(java.io.ObjectInputStream);  
+    java.lang.Object writeReplace();  
+    java.lang.Object readResolve();  
+}  
+-dontwarn com.google.gson.**  
+
+#mob tools
+-dontwarn com.mob.**
+-keep class com.mob.** { *;}
+#保持公共方法不被混淆
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+-keepclassmembers class * extends android.support.v4.app.Fragment {
+   public void *(android.view.View);
+}
+#保持使用gson的实体不被混淆
+-keep class com.cn.xtouch.fodelforuser.http.** { *;}
+-keep class com.cn.xtouch.fodelforuser.http.model.** { *;}
+-keepclasseswithmembers
+class *{
+    public *;
+}

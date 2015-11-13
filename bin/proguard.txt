@@ -1,0 +1,139 @@
+# view res/layout/activity_home.xml #generated:30
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_home.xml #generated:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:130
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.internal.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:48
+-keep class android.support.v7.internal.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.internal.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.internal.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/abc_action_mode_close_item_material.xml #generated:17
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:27
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:37
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:48
+# view res/layout/abc_search_view.xml #generated:116
+# view res/layout/abc_search_view.xml #generated:128
+# view res/layout/abc_search_view.xml #generated:38
+# view res/layout/abc_search_view.xml #generated:60
+# view res/layout/abc_search_view.xml #generated:97
+-keep class android.support.v7.internal.widget.TintImageView { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.internal.widget.ViewStubCompat { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/activity_home.xml #generated:63
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:78
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+# view res/layout/activity_my_top.xml #generated:8
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class com.cn.xtouch.fodelforuser.BaseApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.cn.xtouch.fodelforuser.activity.AboutMeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.cn.xtouch.fodelforuser.activity.ChangeAddressActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.cn.xtouch.fodelforuser.activity.EditInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.cn.xtouch.fodelforuser.activity.ForgotPwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.cn.xtouch.fodelforuser.activity.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.cn.xtouch.fodelforuser.activity.HistoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.cn.xtouch.fodelforuser.activity.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.cn.xtouch.fodelforuser.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.cn.xtouch.fodelforuser.activity.LogisticCommentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.cn.xtouch.fodelforuser.activity.LogisticInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.cn.xtouch.fodelforuser.activity.SignUpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.cn.xtouch.fodelforuser.activity.SplashActivity { <init>(...); }
+
+# view res/layout/activity_history.xml #generated:21
+# view res/layout/fragment_comment.xml #generated:16
+-keep class com.cn.xtouch.fodelforuser.widget.RefreshListView { <init>(...); }
+
+# view res/layout/activity_home.xml #generated:56
+-keep class com.cn.xtouch.fodelforuser.widget.ScrimInsetsFrameLayout { <init>(...); }
+
+# view res/layout/activity_message.xml #generated:21
+-keep class com.cn.xtouch.fodelforuser.widget.ScrollListView { <init>(...); }
+
+# view res/layout/fragment_logistic_info_map.xml #generated:18
+-keep class com.cn.xtouch.fodelforuser.widget.SlideBottomPanel { <init>(...); }
+
+# view res/layout/change_delivery_time_popupwindow.xml #generated:21
+# view res/layout/change_delivery_time_popupwindow.xml #generated:32
+# view res/layout/wheel_view.xml #generated:7
+-keep class com.cn.xtouch.fodelforuser.widget.WheelView { <init>(...); }
+
+# view res/layout/fragment_logistic_info_map.xml #generated:7
+-keep class com.google.android.gms.maps.MapFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.umeng.update.UpdateDialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.umeng.update.net.DownloadingService { <init>(...); }
+

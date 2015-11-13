@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:layout_margin="@dimen/dp10"
+        android:ems="10"
+        android:hint="@string/phone_hint"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp15" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/et_vailcode"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_margin="@dimen/dp10"
+            android:ems="10"
+            android:hint="@string/identify_code_hint"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp15" />
+
+        <TextView
+            android:id="@+id/get_code_btn"
+            android:layout_width="@dimen/dp70"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/et_vailcode"
+            android:layout_alignRight="@+id/et_vailcode"
+            android:layout_alignTop="@+id/et_vailcode"
+            android:layout_marginBottom="@dimen/dp15"
+            android:layout_marginRight="@dimen/dp5"
+            android:background="@drawable/selector_splash_signup"
+            android:gravity="center"
+            android:padding="@dimen/dp5"
+            android:text="@string/verify_btn_txt"
+            android:textColor="@color/background_onclick" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/dp10"
+        android:background="@drawable/selector_btn"
+        android:text="@string/sign_up"
+        android:textColor="@color/black" />
+
+</LinearLayout>

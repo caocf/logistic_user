@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_line" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:minHeight="?android:attr/actionBarSize"
+        app:navigationIcon="@drawable/menu_selector"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar" >
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/top_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/head_img"
+        android:src="@drawable/head_title"
+        android:textColor="@color/black" />
+
+    <!-- 
+    <ImageView
+        android:id="@+id/top_img_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:paddingRight="@dimen/dp15"
+        android:src="@drawable/message_selector" />
+ -->
+</RelativeLayout>

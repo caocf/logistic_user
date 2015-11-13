@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/no_data"
+        android:textSize="@dimen/sp18"
+        android:visibility="gone" />
+
+    <com.cn.xtouch.fodelforuser.widget.RefreshListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="@dimen/dp12"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/ry_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/customprogressdialog"
+        android:visibility="gone" />
+
+</LinearLayout>

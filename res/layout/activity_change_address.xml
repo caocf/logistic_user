@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        layout="@layout/activity_top" />
+
+    <LinearLayout
+        android:id="@+id/ly_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_line"
+        android:orientation="vertical"
+        android:padding="@dimen/dp10" >
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:drawableLeft="@drawable/user_green_32"
+            android:drawablePadding="@dimen/dp10"
+            android:hint="@string/recipient_hint"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp15" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:drawableLeft="@drawable/icon_phone_32"
+            android:drawablePadding="@dimen/dp10"
+            android:hint="@string/phone_hint"
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp15" />
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:drawableLeft="@drawable/location_green_32"
+            android:drawablePadding="@dimen/dp10"
+            android:hint="@string/address_hint"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp15" />
+    </LinearLayout>
+
+</LinearLayout>

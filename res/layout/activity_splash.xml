@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp90"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp15" >
+
+        <TextView
+            android:id="@+id/login_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp50"
+            android:layout_weight="1"
+            android:background="@drawable/selector_splash_login"
+            android:gravity="center"
+            android:text="@string/log_in"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp15" />
+
+        <TextView
+            android:id="@+id/signup_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_weight="1"
+            android:background="@drawable/selector_splash_signup"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp15" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_splash_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp10"
+        android:text="@string/version"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        layout="@layout/activity_top" />
+
+    <EditText
+        android:id="@+id/et_email_address"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_marginRight="@dimen/dp5"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="@dimen/dp5"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp15" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_marginRight="@dimen/dp5"
+        android:background="@drawable/selector_btn"
+        android:text="@string/send"
+        android:enabled="false"
+        android:textColor="@color/black" />
+
+</LinearLayout>
